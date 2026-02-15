@@ -1,0 +1,96 @@
+2026-02-14 23:22:41.922 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-14 23:22:42.006 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 13844 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-14 23:22:42.016 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-14 23:22:43.544 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-14 23:22:43.550 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-14 23:22:43.622 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-02-14 23:22:44.423 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-14 23:22:44.442 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:22:44.444 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-14 23:22:44.445 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-14 23:22:44.530 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-14 23:22:44.533 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2446 ms
+2026-02-14 23:22:46.361 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14 23:22:46.467 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:22:46.518 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-14 23:22:46.540 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.228 seconds (process running for 6.46)
+2026-02-14 23:24:37.830 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-14 23:24:37.913 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 27084 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-14 23:24:37.922 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-14 23:24:39.479 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-14 23:24:39.484 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-14 23:24:39.532 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2026-02-14 23:24:40.302 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-14 23:24:40.317 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:24:40.320 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-14 23:24:40.321 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-14 23:24:40.401 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-14 23:24:40.403 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2398 ms
+2026-02-14 23:24:42.270 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14 23:24:42.375 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:24:42.449 WARN  [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-02-14 23:24:42.507 INFO  [main] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-14 23:24:42.540 ERROR [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-02-14 23:26:07.936 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-14 23:26:08.000 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 25188 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-14 23:26:08.009 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-14 23:26:09.584 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-14 23:26:09.588 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-14 23:26:09.643 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2026-02-14 23:26:10.347 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-14 23:26:10.362 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:26:10.365 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-14 23:26:10.366 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-14 23:26:10.475 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-14 23:26:10.478 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2397 ms
+2026-02-14 23:26:12.219 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14 23:26:12.305 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:26:12.384 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-14 23:26:12.406 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 4.893 seconds (process running for 6.11)
+2026-02-14 23:30:22.566 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-14 23:30:22.630 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 12748 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-14 23:30:22.635 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-14 23:30:24.177 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-14 23:30:24.182 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-14 23:30:24.242 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2026-02-14 23:30:25.028 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-14 23:30:25.048 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:30:25.052 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-14 23:30:25.053 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-14 23:30:25.121 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-14 23:30:25.123 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2409 ms
+2026-02-14 23:30:26.868 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14 23:30:26.960 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:30:27.009 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-14 23:30:27.035 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 4.881 seconds (process running for 6.289)
+2026-02-14 23:31:24.798 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-14 23:31:24.877 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 9988 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-14 23:31:24.885 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-14 23:31:26.422 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-14 23:31:26.426 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-14 23:31:26.483 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-02-14 23:31:27.237 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-14 23:31:27.255 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:31:27.259 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-14 23:31:27.260 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-14 23:31:27.340 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-14 23:31:27.343 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2380 ms
+2026-02-14 23:31:29.098 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-14 23:31:29.185 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-14 23:31:29.226 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-14 23:31:29.251 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 4.874 seconds (process running for 6.043)

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+
+        <Property name="CONSOLE_PATTERN">
+            %style{%d{HH:mm:ss.SSS}}{cyan} %highlight{%-5level} %style{[%t]}{magenta} %style{%c{1}}{blue} %msg%n
+        </Property>
+
+        <Property name="FILE_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%t] %c{1} - %msg%n
+        </Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${CONSOLE_PATTERN}"/>
+        </Console>
+
+        <!-- Application Logs -->
+        <RollingFile name="AppFile"
+                     fileName="${LOG_DIR}/application.log"
+                     filePattern="${LOG_DIR}/application-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${FILE_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <!-- Error Logs -->
+        <RollingFile name="ErrorFile"
+                     fileName="${LOG_DIR}/error.log"
+                     filePattern="${LOG_DIR}/error-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${FILE_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <Filters>
+                <ThresholdFilter level="ERROR"
+                                 onMatch="ACCEPT"
+                                 onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AppFile"/>
+            <AppenderRef ref="ErrorFile"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
