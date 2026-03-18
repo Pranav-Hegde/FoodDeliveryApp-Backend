@@ -1,8 +1,7 @@
 package FoodDelivery.auth.Order;
 public enum OrderStatus {
     CREATED,
-    CONFIRMED,
-    PREPARING,
-    DELIVERED,
-    CANCELLED
+    ACCEPTED,
+    OUT_FOR_DELIVERY,
+    DELIVERED, PREPARED;
 }

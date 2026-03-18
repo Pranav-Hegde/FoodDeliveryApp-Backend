@@ -1,0 +1,319 @@
+2026-02-28 16:33:47.485 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:33:47.640 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 6012 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:33:47.653 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:33:50.046 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:33:50.054 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:33:50.122 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:33:51.121 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 16:33:51.144 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:33:51.148 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:33:51.149 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:33:51.231 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:33:51.234 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3450 ms
+2026-02-28 16:33:53.144 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:33:53.234 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:33:53.286 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 16:33:53.304 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 6.358 seconds (process running for 8.643)
+2026-02-28 16:43:58.014 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:43:58.155 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 5244 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:43:58.168 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:44:00.252 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:44:00.258 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:44:00.305 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:44:01.169 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 16:44:01.192 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:44:01.197 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:44:01.197 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:44:01.302 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:44:01.305 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2978 ms
+2026-02-28 16:44:03.326 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:44:03.434 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:44:03.494 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 16:44:03.519 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 6.147 seconds (process running for 8.234)
+2026-02-28 16:46:33.997 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 16:46:33.999 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 16:46:34.004 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 5 ms
+2026-02-28 16:49:08.477 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:49:08.564 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 10888 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:49:08.571 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:49:10.310 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:49:10.315 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:49:10.367 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:49:19.822 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:49:19.899 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 1992 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:49:19.906 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:49:22.232 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:49:22.237 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:49:22.288 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:49:23.206 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 16:49:23.227 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:49:23.230 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:49:23.231 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:49:23.317 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:49:23.319 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3306 ms
+2026-02-28 16:49:25.374 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:49:25.507 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 16:49:25.547 WARN  [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-02-28 16:49:25.624 INFO  [main] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-28 16:49:25.690 ERROR [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-02-28 16:51:48.298 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:51:48.449 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 28248 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:51:48.460 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:51:50.365 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:51:50.371 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:51:50.438 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:51:51.313 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-28 16:51:51.346 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:51:51.349 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:51:51.350 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:51:51.431 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:51:51.434 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2822 ms
+2026-02-28 16:51:53.278 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:51:53.368 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:51:53.427 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-28 16:51:53.447 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.674 seconds (process running for 7.07)
+2026-02-28 16:53:21.313 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:53:21.400 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 11772 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:53:21.408 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:53:23.092 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:53:23.097 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:53:23.156 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:53:24.107 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-28 16:53:24.126 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:53:24.130 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:53:24.132 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:53:24.218 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:53:24.222 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2728 ms
+2026-02-28 16:53:26.335 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:53:26.425 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:53:26.488 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-28 16:53:26.511 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.716 seconds (process running for 7.234)
+2026-02-28 16:54:36.097 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 16:54:36.193 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 9656 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 16:54:36.201 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 16:54:38.050 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 16:54:38.055 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 16:54:38.111 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2026-02-28 16:54:39.042 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-28 16:54:39.078 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:54:39.081 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 16:54:39.082 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 16:54:39.192 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 16:54:39.195 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2888 ms
+2026-02-28 16:54:41.279 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 16:54:41.367 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-28 16:54:41.438 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-28 16:54:41.465 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.824 seconds (process running for 7.198)
+2026-02-28 16:54:52.998 INFO  [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 16:54:52.998 INFO  [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 16:54:53.000 INFO  [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 2 ms
+2026-02-28 17:01:35.451 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 17:01:35.558 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 9000 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 17:01:35.568 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 17:01:37.281 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 17:01:37.290 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 17:01:37.349 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-02-28 17:01:38.204 INFO  [main] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-28 17:01:38.229 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-28 17:01:38.235 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 17:01:38.236 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 17:01:38.337 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 17:01:38.343 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2678 ms
+2026-02-28 17:01:40.131 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 17:01:40.211 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-28 17:01:40.256 INFO  [main] TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-28 17:01:40.276 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.346 seconds (process running for 6.801)
+2026-02-28 17:02:28.834 INFO  [http-nio-8080-exec-5] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 17:02:28.834 INFO  [http-nio-8080-exec-5] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 17:02:28.837 INFO  [http-nio-8080-exec-5] DispatcherServlet - Completed initialization in 1 ms
+2026-02-28 17:04:14.762 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 17:04:14.853 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 2164 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 17:04:14.861 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 17:04:16.598 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 17:04:16.604 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 17:04:16.673 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2026-02-28 17:04:17.626 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 17:04:17.660 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:04:17.663 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 17:04:17.664 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 17:04:17.742 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 17:04:17.746 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2797 ms
+2026-02-28 17:04:19.806 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 17:04:19.920 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:04:19.976 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 17:04:19.999 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.785 seconds (process running for 7.238)
+2026-02-28 17:04:40.266 INFO  [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 17:04:40.268 INFO  [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 17:04:40.272 INFO  [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 3 ms
+2026-02-28 17:30:12.980 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 17:30:13.076 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 19116 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 17:30:13.084 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 17:30:14.803 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 17:30:14.810 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 17:30:14.872 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2026-02-28 17:30:15.777 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 17:30:15.803 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:30:15.808 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 17:30:15.809 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 17:30:15.915 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 17:30:15.918 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2743 ms
+2026-02-28 17:30:18.885 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 17:30:19.107 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:30:19.204 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 17:30:19.231 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 6.839 seconds (process running for 8.726)
+2026-02-28 17:44:28.009 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 17:44:28.125 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 11956 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 17:44:28.136 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 17:44:30.609 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 17:44:30.620 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 17:44:30.693 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2026-02-28 17:44:31.955 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 17:44:31.976 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:44:31.981 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 17:44:31.983 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 17:44:32.085 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 17:44:32.088 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3849 ms
+2026-02-28 17:44:34.667 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 17:44:34.811 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:44:34.921 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 17:44:34.942 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 7.587 seconds (process running for 9.787)
+2026-02-28 17:44:38.802 INFO  [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 17:44:38.803 INFO  [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 17:44:38.805 INFO  [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2026-02-28 17:44:39.539 INFO  [http-nio-8081-exec-2] AuthController - OTP sent successfull
+2026-02-28 17:44:45.490 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-28 17:44:45.510 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection closed prematurely
+io.lettuce.core.RedisConnectionException: Connection closed prematurely
+	at io.lettuce.core.protocol.RedisHandshakeHandler.channelInactive(RedisHandshakeHandler.java:91) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.lettuce.core.ChannelGroupListener.channelInactive(ChannelGroupListener.java:69) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-02-28 17:44:50.393 INFO  [lettuce-nioEventLoop-4-1] ReconnectionHandler - Reconnected to localhost/<unresolved>:6379
+2026-02-28 17:45:35.087 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-28 17:45:35.089 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:45:44.086 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:45:44.088 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:45:52.284 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:45:52.287 WARN  [lettuce-nioEventLoop-4-3] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:46:08.684 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:46:08.687 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:46:38.788 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:46:38.791 WARN  [lettuce-nioEventLoop-4-5] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:47:08.887 INFO  [lettuce-eventExecutorLoop-1-7] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:47:08.890 WARN  [lettuce-nioEventLoop-4-6] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:47:38.987 INFO  [lettuce-eventExecutorLoop-1-9] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:47:38.990 WARN  [lettuce-nioEventLoop-4-7] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:48:02.804 WARN  [http-nio-8081-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Connection reset by peer]
+2026-02-28 17:48:09.097 INFO  [lettuce-eventExecutorLoop-1-11] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:48:09.101 WARN  [lettuce-nioEventLoop-4-8] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:48:39.196 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:48:39.199 WARN  [lettuce-nioEventLoop-4-9] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:49:09.295 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:49:09.300 WARN  [lettuce-nioEventLoop-4-10] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:49:39.383 INFO  [lettuce-eventExecutorLoop-1-5] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:49:39.386 WARN  [lettuce-nioEventLoop-4-11] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:50:09.483 INFO  [lettuce-eventExecutorLoop-1-7] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:50:09.487 WARN  [lettuce-nioEventLoop-4-12] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:50:39.596 INFO  [lettuce-eventExecutorLoop-1-9] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:50:39.600 WARN  [lettuce-nioEventLoop-4-1] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:51:09.697 INFO  [lettuce-eventExecutorLoop-1-11] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:51:09.700 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:51:39.790 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:51:39.795 WARN  [lettuce-nioEventLoop-4-3] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:52:09.896 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:52:09.900 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:52:39.995 INFO  [lettuce-eventExecutorLoop-1-5] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:52:40.012 WARN  [lettuce-nioEventLoop-4-5] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:53:10.100 INFO  [lettuce-eventExecutorLoop-1-7] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:53:10.116 WARN  [lettuce-nioEventLoop-4-6] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-28 17:53:40.190 INFO  [lettuce-eventExecutorLoop-1-9] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-28 17:53:40.296 INFO  [lettuce-nioEventLoop-4-7] ReconnectionHandler - Reconnected to localhost/<unresolved>:6379
+2026-02-28 17:55:58.967 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 17:55:59.216 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 3156 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 17:55:59.227 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 17:56:02.490 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 17:56:02.499 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 17:56:02.569 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+2026-02-28 17:56:03.854 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 17:56:03.876 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:56:03.880 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 17:56:03.882 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 17:56:03.979 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 17:56:03.984 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4624 ms
+2026-02-28 17:56:06.089 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 17:56:06.170 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 17:56:06.224 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 17:56:06.248 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 8.033 seconds (process running for 9.893)
+2026-02-28 17:56:14.338 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 17:56:14.338 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 17:56:14.340 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2026-02-28 17:56:15.165 INFO  [http-nio-8081-exec-1] AuthController - OTP sent successfull
+2026-02-28 17:58:48.354 INFO  [http-nio-8081-exec-9] Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/orders^?amount=299 ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-02-28 18:05:46.330 INFO  [http-nio-8081-exec-4] AuthController - OTP sent successfull
+2026-02-28 18:07:21.380 INFO  [http-nio-8081-exec-2] OrderController - Placing order for user=test@gmail.com
+2026-02-28 18:12:11.527 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-28 18:12:11.647 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 11188 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-28 18:12:11.657 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-28 18:12:14.186 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-28 18:12:14.193 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-28 18:12:14.274 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+2026-02-28 18:12:15.647 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-28 18:12:15.669 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-28 18:12:15.677 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-28 18:12:15.678 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-28 18:12:15.794 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-28 18:12:15.799 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4027 ms
+2026-02-28 18:12:18.710 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-28 18:12:18.813 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-28 18:12:18.879 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-28 18:12:18.904 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 8.218 seconds (process running for 10.161)
+2026-02-28 18:12:22.298 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-28 18:12:22.299 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-28 18:12:22.300 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2026-02-28 18:12:22.535 INFO  [http-nio-8081-exec-1] OrderController - Placing order for user=test@gmail.com
+2026-02-28 18:12:22.537 INFO  [http-nio-8081-exec-1] OrderController - ORDER_CREATED | orderId=112272af-0503-446f-bc3f-85b1d962476e | userEmail=test@gmail.com | items=[Pizza, Coke] | totalAmount=299.0 | status=CREATED | createdAt=2026-02-28T18:12:22.537057100

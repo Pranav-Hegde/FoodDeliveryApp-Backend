@@ -1,0 +1,26 @@
+package FoodDelivery.auth.Order;
+
+import org.springframework.stereotype.Repository;
+import java.util.List;
+
+
+@Repository
+public interface OrderRepository extends JpaRepository<Order, String> {
+    
+    // 1. You already have this: SELECT * FROM orders WHERE user_email = ?
+    List<Order> findByUserEmail(String userEmail);
+
+    // 2. Find all orders that are currently "PREPARING"
+    List<Order> findByStatus(OrderStatus status);
+
+    // 3. Find orders for a specific user that are "DELIVERED"
+    List<Order> findByUserEmailAndStatus(String userEmail, OrderStatus status);
+
+    // 4. Find large orders (e.g., above 500 rupees)
+    List<Order> findByTotalAmountGreaterThan(double amount);
+}
+@Repository
+public interface OrderRepository extends JpaRepository<Order, String> {
+    // Spring Boot automatically translates this method name into a "SELECT * FROM orders WHERE user_email = ?" query!
+    List<Order> findByUserEmail(String userEmail);
+}

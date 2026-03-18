@@ -1,0 +1,51 @@
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Service;
+
+@Service
+public class OtpService {
+
+    @Autowired(required = false)
+    private RedisTemplate<String, String> redisTemplate;
+
+    public String generateOtp(String email) {
+        try {
+            if (redisTemplate == null) {
+                return null;
+            }
+
+            String otp = String.valueOf(100000 + new Random().nextInt(900000));
+            redisTemplate.opsForValue()
+                    .set("OTP:" + email, otp, 5, TimeUnit.MINUTES);
+            return otp;
+
+        } catch (Exception e) {
+            // 🔒 NEVER CRASH
+            return null;
+        }
+    }
+
+    public boolean verifyOtp(String email, String otp) {
+        try {
+            if (redisTemplate == null) {
+                return false;
+            }
+
+            String key = "OTP:" + email;
+            String saved = redisTemplate.opsForValue().get(key);
+
+            if (otp.equals(saved)) {
+                redisTemplate.delete(key);
+                return true;
+            }
+            return false;
+
+        } catch (Exception e) {
+            // 🔒 NEVER CRASH
+            return false;
+        }
+    }
+}

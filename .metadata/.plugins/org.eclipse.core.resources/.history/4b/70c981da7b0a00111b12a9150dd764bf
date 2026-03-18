@@ -1,0 +1,11 @@
+package FoodDelivery.auth.Order;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import java.util.List;
+
+@Repository
+public interface OrderRepository extends JpaRepository<Order, String> {
+    // Spring Boot automatically translates this method name into a "SELECT * FROM orders WHERE user_email = ?" query!
+    List<Order> findByUserEmail(String userEmail);
+}

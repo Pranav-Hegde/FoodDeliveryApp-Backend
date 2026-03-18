@@ -1,0 +1,11 @@
+package FoodDelivery.auth.controller;
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
+    @GetMapping("/profile")
+    public String profile(HttpServletRequest request) {
+        return "Logged in as: " + request.getAttribute("email");
+    }
+}

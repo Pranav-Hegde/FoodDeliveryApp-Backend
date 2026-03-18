@@ -1,0 +1,183 @@
+2026-03-10 11:26:14.905 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 11:26:15.077 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 8052 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-10 11:26:15.100 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 11:26:19.973 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 11:26:19.979 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 11:26:20.465 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 458 ms. Found 1 JPA repository interface.
+2026-03-10 11:26:20.515 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 11:26:20.517 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-10 11:26:20.556 INFO  [main] RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface FoodDelivery.auth.Restaurant.RestauarantRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-03-10 11:26:20.556 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-03-10 11:26:23.517 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-10 11:26:23.549 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-10 11:26:23.556 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-10 11:26:23.557 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 11:26:23.783 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 11:26:23.789 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8461 ms
+2026-03-10 11:26:25.095 INFO  [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 11:26:25.692 INFO  [main] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 11:26:26.281 INFO  [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 11:26:29.492 INFO  [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 11:26:30.098 INFO  [main] HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 11:26:35.143 INFO  [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f627d0
+2026-03-10 11:26:35.157 INFO  [main] HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 11:26:35.756 WARN  [main] deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 11:26:35.765 WARN  [main] deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-10 11:26:39.121 INFO  [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 11:26:39.313 INFO  [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 11:26:41.987 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 11:26:45.314 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-10 11:26:45.513 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-10 11:26:45.583 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-10 11:26:45.644 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 32.214 seconds (process running for 36.197)
+2026-03-10 22:07:20.903 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 22:07:21.033 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 22292 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-10 22:07:21.047 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 22:07:24.260 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:07:24.267 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 22:07:24.678 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 383 ms. Found 1 JPA repository interface.
+2026-03-10 22:07:24.717 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:07:24.719 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-10 22:07:24.758 INFO  [main] RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface FoodDelivery.auth.Restaurant.RestauarantRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-03-10 22:07:24.758 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-03-10 22:07:27.543 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-10 22:07:27.582 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:07:27.587 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-10 22:07:27.588 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 22:07:27.793 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 22:07:27.801 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6598 ms
+2026-03-10 22:07:28.838 INFO  [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 22:07:29.036 INFO  [main] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 22:07:29.123 INFO  [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 22:07:29.867 INFO  [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 22:07:29.952 INFO  [main] HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 22:07:30.945 INFO  [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c8a91e2
+2026-03-10 22:07:30.952 INFO  [main] HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 22:07:31.137 WARN  [main] deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 22:07:31.143 WARN  [main] deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-10 22:07:33.019 INFO  [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 22:07:33.181 INFO  [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 22:07:34.942 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 22:07:36.905 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-10 22:07:37.047 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:07:37.126 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-10 22:07:37.154 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 17.045 seconds (process running for 22.557)
+2026-03-10 22:13:11.571 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 22:13:11.926 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 19192 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-10 22:13:11.947 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 22:13:18.511 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:13:18.520 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 22:13:19.251 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 697 ms. Found 1 JPA repository interface.
+2026-03-10 22:13:19.343 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:13:19.352 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-10 22:13:19.437 INFO  [main] RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface FoodDelivery.auth.Restaurant.RestauarantRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-03-10 22:13:19.437 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-03-10 22:13:25.386 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-10 22:13:25.476 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:13:25.493 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-10 22:13:25.501 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 22:13:25.894 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 22:13:25.907 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13721 ms
+2026-03-10 22:13:28.399 INFO  [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 22:13:28.801 INFO  [main] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 22:13:29.074 INFO  [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 22:13:30.151 INFO  [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 22:13:30.280 INFO  [main] HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 22:13:31.848 INFO  [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e3d36c2
+2026-03-10 22:13:31.854 INFO  [main] HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 22:13:31.980 WARN  [main] deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 22:13:31.984 WARN  [main] deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-10 22:13:34.242 INFO  [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 22:13:34.349 INFO  [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 22:13:36.825 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 22:13:40.216 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-10 22:13:40.378 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:13:40.435 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-10 22:13:40.473 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 30.516 seconds (process running for 34.374)
+2026-03-10 22:20:21.978 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 22:20:21.979 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 22:20:21.983 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 3 ms
+2026-03-10 22:29:24.237 WARN  [http-nio-8081-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name]
+2026-03-10 22:29:49.273 WARN  [http-nio-8081-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('n' (code 110)): was expecting double-quote to start field name]
+2026-03-10 22:31:35.563 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 22:31:35.872 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 22188 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-10 22:31:35.898 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 22:31:39.592 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:31:39.595 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 22:31:39.992 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 377 ms. Found 1 JPA repository interface.
+2026-03-10 22:31:40.033 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:31:40.036 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-10 22:31:40.069 INFO  [main] RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface FoodDelivery.auth.Restaurant.RestauarantRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-03-10 22:31:40.069 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-03-10 22:31:42.273 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-10 22:31:42.303 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:31:42.309 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-10 22:31:42.310 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 22:31:42.472 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 22:31:42.476 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6410 ms
+2026-03-10 22:31:43.464 INFO  [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 22:31:43.689 INFO  [main] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 22:31:43.801 INFO  [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 22:31:44.721 INFO  [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 22:31:44.874 INFO  [main] HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 22:31:45.879 INFO  [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@641cea11
+2026-03-10 22:31:45.887 INFO  [main] HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 22:31:46.040 WARN  [main] deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 22:31:46.051 WARN  [main] deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-10 22:31:48.451 INFO  [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 22:31:48.544 INFO  [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 22:31:50.146 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 22:31:53.089 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-10 22:31:53.366 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:31:53.446 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-10 22:31:53.505 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 19.843 seconds (process running for 22.969)
+2026-03-10 22:31:56.443 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 22:31:56.444 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 22:31:56.448 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 3 ms
+2026-03-10 22:31:56.811 WARN  [http-nio-8081-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('n' (code 110)): was expecting double-quote to start field name]
+2026-03-10 22:40:13.309 WARN  [http-nio-8081-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('n' (code 110)): was expecting double-quote to start field name]
+2026-03-10 22:41:52.489 WARN  [http-nio-8081-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name]
+2026-03-10 22:43:06.687 WARN  [http-nio-8081-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name]
+2026-03-10 22:43:29.918 INFO  [http-nio-8081-exec-6] AdminService - Admin creating restaurant: Food Palace
+2026-03-10 22:43:30.238 INFO  [http-nio-8081-exec-6] AdminService - Restaurant created successfully with id: 1
+2026-03-10 22:44:32.607 INFO  [http-nio-8081-exec-8] AdminService - Fetching all restaurants
+2026-03-10 22:44:33.031 INFO  [http-nio-8081-exec-8] AdminService - Total restaurants found: 1
+2026-03-10 22:45:50.292 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 22:45:50.593 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 24076 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-10 22:45:50.623 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 22:45:57.873 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:45:57.905 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-10 22:45:59.258 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1210 ms. Found 1 JPA repository interface.
+2026-03-10 22:45:59.371 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-10 22:45:59.375 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-10 22:45:59.435 INFO  [main] RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface FoodDelivery.auth.Restaurant.RestauarantRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-03-10 22:45:59.436 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2026-03-10 22:46:02.709 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-10 22:46:02.738 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:46:02.746 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-10 22:46:02.747 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-10 22:46:02.939 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 22:46:02.947 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12048 ms
+2026-03-10 22:46:03.869 INFO  [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 22:46:04.017 INFO  [main] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-10 22:46:04.124 INFO  [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-10 22:46:04.901 INFO  [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-10 22:46:04.988 INFO  [main] HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 22:46:06.000 INFO  [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@639cb0c8
+2026-03-10 22:46:06.006 INFO  [main] HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 22:46:06.171 WARN  [main] deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 22:46:06.180 WARN  [main] deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-03-10 22:46:08.285 INFO  [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 22:46:08.374 INFO  [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-10 22:46:09.772 WARN  [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-10 22:46:11.751 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-10 22:46:11.917 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-10 22:46:11.981 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-10 22:46:12.015 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 22.77 seconds (process running for 25.348)
+2026-03-10 22:46:17.619 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 22:46:17.620 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 22:46:17.625 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 5 ms
+2026-03-10 22:46:17.827 INFO  [http-nio-8081-exec-1] AdminService - Fetching all restaurants
+2026-03-10 22:46:18.371 INFO  [http-nio-8081-exec-1] AdminService - Total restaurants found: 1
+2026-03-10 22:46:46.216 WARN  [http-nio-8081-exec-2] AdminService - Admin requested deletion of restaurant id: 1
+2026-03-10 22:46:46.374 INFO  [http-nio-8081-exec-2] AdminService - Restaurant deleted successfully with id: 1

@@ -1,0 +1,168 @@
+package FoodDelivery.auth.Order;
+
+
+
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+
+
+
+    // ================== ORDER MODEL ==================
+    public static class Order {
+
+        // ---- Order core ----
+        private final String orderId;
+        private final String userEmail;
+        private List<String> items;
+        private double totalAmount;
+        private OrderStatus status;
+        private final LocalDateTime createdAt;
+
+        // ---- Address info ----
+        private String customerName;
+        private String phoneNumber;
+        private String street;
+        private String city;
+        private String state;
+        private String pincode;
+        private String landmark;
+
+        // ---- Delivery info ----
+        private String deliveryPartner;
+        private LocalDateTime deliveredAt;
+
+        public Order(String userEmail,
+                     List<String> items,
+                     double totalAmount,
+                     String customerName,
+                     String phoneNumber,
+                     String street,
+                     String city,
+                     String state,
+                     String pincode,
+                     String landmark) {
+
+            this.orderId = UUID.randomUUID().toString();
+            this.userEmail = userEmail;
+            this.items = items;
+            this.totalAmount = totalAmount;
+            this.status = OrderStatus.CREATED;
+            this.createdAt = LocalDateTime.now();
+
+            this.customerName = customerName;
+            this.phoneNumber = phoneNumber;
+            this.street = street;
+            this.city = city;
+            this.state = state;
+            this.pincode = pincode;
+            this.landmark = landmark;
+        }
+
+        // ================== GETTERS ==================
+        public String getOrderId() { return orderId; }
+        public String getUserEmail() { return userEmail; }
+        public List<String> getItems() { return items; }
+        public double getTotalAmount() { return totalAmount; }
+        public OrderStatus getStatus() { return status; }
+        public LocalDateTime getCreatedAt() { return createdAt; }
+        public LocalDateTime getDeliveredAt() { return deliveredAt; }
+
+        public String getCustomerName() { return customerName; }
+        public String getPhoneNumber() { return phoneNumber; }
+        public String getStreet() { return street; }
+        public String getCity() { return city; }
+        public String getState() { return state; }
+        public String getPincode() { return pincode; }
+        public String getLandmark() { return landmark; }
+        public String getDeliveryPartner() { return deliveryPartner; }
+
+        // ================== SETTERS ==================
+        public void setItems(List<String> items) { this.items = items; }
+        public void setTotalAmount(double totalAmount) { this.totalAmount = totalAmount; }
+
+        public void setStatus(OrderStatus status) {
+            this.status = status;
+            if (status == OrderStatus.DELIVERED) {
+                this.deliveredAt = LocalDateTime.now();
+            }
+        }
+
+        public void assignDeliveryPartner(String partner) {
+            this.deliveryPartner = partner;
+        }
+    }
+
+    // ================== STORAGE ==================
+    private final Map<String, Order> orderStore = new ConcurrentHashMap<>();
+
+    // ================== ORDER OPERATIONS ==================
+
+    // Create Order
+    public Order createOrder(
+            String email,
+            List<String> items,
+            double amount,
+            String customerName,
+            String phone,
+            String street,
+            String city,
+            String state,
+            String pincode,
+            String landmark) {
+
+        Order order = new Order(
+                email, items, amount,
+                customerName, phone,
+                street, city, state, pincode, landmark
+        );
+
+        orderStore.put(order.getOrderId(), order);
+        return order;
+    }
+
+    // Get order by ID
+    public Order getOrderById(String orderId) {
+        return orderStore.get(orderId);
+    }
+
+    // Get all orders for a user
+    public List<Order> getOrdersByUser(String email) {
+        List<Order> result = new ArrayList<>();
+        for (Order order : orderStore.values()) {
+            if (order.getUserEmail().equals(email)) {
+                result.add(order);
+            }
+        }
+        return result;
+    }
+
+    // Update order status
+    public Order updateOrderStatus(String orderId, OrderStatus status) {
+        Order order = orderStore.get(orderId);
+        if (order != null) {
+            order.setStatus(status);
+        }
+        return order;
+    }
+
+    // Assign delivery partner
+    public Order assignDeliveryPartner(String orderId, String partner) {
+        Order order = orderStore.get(orderId);
+        if (order != null) {
+            order.assignDeliveryPartner(partner);
+        }
+        return order;
+    }
+
+    // Delete order
+    public boolean deleteOrder(String orderId) {
+        return orderStore.remove(orderId) != null;
+    }
+}

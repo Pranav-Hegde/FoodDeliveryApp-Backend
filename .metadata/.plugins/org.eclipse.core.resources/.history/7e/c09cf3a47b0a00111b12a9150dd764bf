@@ -1,0 +1,82 @@
+package FoodDelivery.auth.Order;
+
+import jakarta.servlet.http.HttpServletRequest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/orders")
+public class OrderController {
+
+    private static final Logger logger =
+            LogManager.getLogger(OrderController.class);
+
+    private final OrderManager orderService;
+
+    public OrderController(OrderManager orderService) {
+        this.orderService = orderService;
+    }
+
+    @PostMapping
+    public OrderManager.Order placeOrder(
+            HttpServletRequest request,
+            @RequestBody String body,
+            @RequestParam double amount) {
+
+        String email = (String) request.getAttribute("email");
+
+        // Parse items from raw JSON array string
+        body = body.replace("[", "")
+                   .replace("]", "")
+                   .replace("\"", "");
+
+        List<String> items = List.of(body.split(","));
+
+        logger.info("Placing order for user={}", email);
+
+        return orderService.createOrder(
+                email,
+                items,
+                amount,
+                "Test User",
+                "9999999999",
+                "Street 1",
+                "City",
+                "State",
+                "123456",
+                "Near Park"
+        );
+    }
+
+    @GetMapping("/{orderId}")
+    public OrderManager.Order getOrder(@PathVariable String orderId) {
+        return orderService.getOrderById(orderId);
+    }
+
+    @GetMapping("/my")
+    public List<OrderManager.Order> myOrders(HttpServletRequest request) {
+        String email = (String) request.getAttribute("email");
+        return orderService.getOrdersByUser(email);
+    }
+    @PutMapping("/{orderId}/status")
+    public ResponseEntity<?> updateOrderStatus(
+            @PathVariable String orderId,
+            @RequestParam OrderStatus status) {
+
+        OrderManager.Order order =
+                orderService.updateOrderStatus(orderId, status);
+
+        if (order == null) {
+            return ResponseEntity.status(404)
+                    .body("Order not found");
+        }
+
+        return ResponseEntity.ok(order);
+    }
+
+
+}

@@ -21,8 +21,11 @@ public class AuthController {
     @PostMapping("/request-otp")
     public ResponseEntity<?> requestOtp(@RequestParam String email) {
         try {
-            otpService.generateOtp(email);
-            logger.info("OTP sent successfull");
+            String otp = otpService.generateOtp(email);
+
+            System.out.println("OTP for " + email + " = " + otp); // add this
+
+            logger.info("OTP sent successfully");
             return ResponseEntity.ok("OTP sent successfully");
         } catch (Exception e) {
             return ResponseEntity
@@ -30,7 +33,6 @@ public class AuthController {
                     .body("Failed to send OTP");
         }
     }
-
     @PostMapping("/verify-otp")
     public ResponseEntity<?> verifyOtp(@RequestParam String email,
                                        @RequestParam String otp) {

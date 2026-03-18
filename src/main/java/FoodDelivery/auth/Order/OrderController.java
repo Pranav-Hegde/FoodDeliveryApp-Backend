@@ -11,41 +11,35 @@ import java.util.List;
 @RequestMapping("/api/orders")
 public class OrderController {
 
-    private static final Logger logger =
-            LogManager.getLogger(OrderController.class);
+	private static final Logger logger = LogManager.getLogger(OrderController.class);
 
-    private final OrderService orderService;
+	private final OrderService orderService;
 
-    public OrderController(OrderService orderService) {
-        this.orderService = orderService;
-    }
+	public OrderController(OrderService orderService) {
+		this.orderService = orderService;
+	}
 
-    @PostMapping
-    public Order placeOrder(
-            HttpServletRequest request,
-            @RequestBody String body,
-            @RequestParam double amount) {
+	@PostMapping
+	public Order placeOrder(
+	        HttpServletRequest request,
+	        @RequestBody List<String> items,
+	        @RequestParam double amount) {
 
-        String email = (String) request.getAttribute("email");
-        body = body.replace("[", "")
-                .replace("]", "")
-                .replace("\"", "");
+	    String email = (String) request.getAttribute("email");
 
-     List<String> items = List.of(body.split(","));
-     logger.info("Placing order for user={}", email);
-     return orderService.placeOrder(email, items, amount);
+	    logger.info("Placing order for user={}", email);
 
-        
-    }
+	    return orderService.placeOrder(email, items, amount);
+	}
 
-    @GetMapping("/{orderId}")
-    public Order getOrder(@PathVariable String orderId) {
-        return orderService.getOrderById(orderId);
-    }
+	@GetMapping("/{orderId}")
+	public Order getOrder(@PathVariable String orderId) {
+		return orderService.getOrderById(orderId);
+	}
 
-    @GetMapping("/my")
-    public List<Order> myOrders(HttpServletRequest request) {
-        String email = (String) request.getAttribute("email");
-        return orderService.getOrdersByUser(email);
-    }
+	@GetMapping("/my")
+	public List<Order> myOrders(HttpServletRequest request) {
+		String email = (String) request.getAttribute("email");
+		return orderService.getOrdersByUser(email);
+	}
 }

@@ -1,0 +1,249 @@
+2026-02-15 00:06:30.082 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-15 00:06:30.156 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 18704 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-15 00:06:30.165 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 00:06:32.019 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 00:06:32.026 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-15 00:06:32.084 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2026-02-15 00:06:32.938 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-15 00:06:32.956 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-15 00:06:32.960 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-15 00:06:32.961 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-15 00:06:33.058 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-15 00:06:33.061 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2822 ms
+2026-02-15 00:06:35.292 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-15 00:06:35.382 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-15 00:06:35.441 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-15 00:06:35.466 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 5.842 seconds (process running for 7.085)
+2026-02-15 00:07:17.085 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 00:07:17.086 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-15 00:07:17.088 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 2 ms
+2026-02-15 00:12:33.299 INFO  [http-nio-8081-exec-8] AuthController - OTP sent successfull
+2026-02-15 00:14:22.649 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-15 00:14:22.662 WARN  [lettuce-nioEventLoop-4-3] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection closed prematurely
+io.lettuce.core.RedisConnectionException: Connection closed prematurely
+	at io.lettuce.core.protocol.RedisHandshakeHandler.channelInactive(RedisHandshakeHandler.java:91) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.lettuce.core.ChannelGroupListener.channelInactive(ChannelGroupListener.java:69) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-02-15 00:14:31.748 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:14:31.751 WARN  [lettuce-nioEventLoop-4-3] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:14:40.051 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:14:40.054 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:14:56.449 INFO  [lettuce-eventExecutorLoop-1-4] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:14:56.453 WARN  [lettuce-nioEventLoop-4-5] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:15:26.547 INFO  [lettuce-eventExecutorLoop-1-4] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:15:26.550 WARN  [lettuce-nioEventLoop-4-6] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:15:56.653 INFO  [lettuce-eventExecutorLoop-1-9] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:15:56.656 WARN  [lettuce-nioEventLoop-4-7] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:16:26.755 INFO  [lettuce-eventExecutorLoop-1-11] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:16:26.758 WARN  [lettuce-nioEventLoop-4-8] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:16:56.847 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:16:56.850 WARN  [lettuce-nioEventLoop-4-9] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 00:17:01.168 WARN  [http-nio-8081-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-02-15 00:17:26.942 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 00:17:26.944 WARN  [lettuce-nioEventLoop-4-10] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:10:57.122 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-15 10:10:57.331 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 10104 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-15 10:10:57.352 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 10:11:01.443 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 10:11:01.455 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-15 10:11:01.568 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 0 Redis repository interfaces.
+2026-02-15 10:11:02.990 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-15 10:11:03.151 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 24308 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-15 10:11:03.168 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 10:11:03.984 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-15 10:11:04.055 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:11:04.067 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-15 10:11:04.069 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-15 10:11:04.409 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-15 10:11:04.419 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6900 ms
+2026-02-15 10:11:07.450 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 10:11:07.462 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-15 10:11:07.596 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 0 Redis repository interfaces.
+2026-02-15 10:11:09.733 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-15 10:11:09.890 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-15 10:11:09.956 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:11:09.966 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-15 10:11:09.969 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-15 10:11:10.019 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:11:10.273 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-15 10:11:10.283 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6871 ms
+2026-02-15 10:11:10.456 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-15 10:11:10.516 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 14.137 seconds (process running for 16.404)
+2026-02-15 10:11:13.064 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-15 10:11:13.171 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:11:13.236 WARN  [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-02-15 10:11:13.362 INFO  [main] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-15 10:11:13.419 ERROR [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-02-15 10:16:30.458 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 10:16:30.468 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-15 10:16:30.514 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 45 ms
+2026-02-15 10:16:31.931 INFO  [http-nio-8081-exec-1] AuthController - OTP sent successfull
+2026-02-15 10:17:16.867 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-15 10:17:16.896 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection closed prematurely
+io.lettuce.core.RedisConnectionException: Connection closed prematurely
+	at io.lettuce.core.protocol.RedisHandshakeHandler.channelInactive(RedisHandshakeHandler.java:91) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.lettuce.core.ChannelGroupListener.channelInactive(ChannelGroupListener.java:69) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-02-15 10:17:25.948 INFO  [lettuce-eventExecutorLoop-1-1] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:17:25.951 WARN  [lettuce-nioEventLoop-4-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:17:34.241 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:17:34.245 WARN  [lettuce-nioEventLoop-4-3] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:17:50.643 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:17:50.648 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:18:20.754 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:18:20.759 WARN  [lettuce-nioEventLoop-4-5] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:18:50.845 INFO  [lettuce-eventExecutorLoop-1-8] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:18:50.851 WARN  [lettuce-nioEventLoop-4-6] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:19:20.953 INFO  [lettuce-eventExecutorLoop-1-10] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:19:20.957 WARN  [lettuce-nioEventLoop-4-7] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:19:51.052 INFO  [lettuce-eventExecutorLoop-1-12] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:19:51.057 WARN  [lettuce-nioEventLoop-4-8] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:20:21.149 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:20:21.153 WARN  [lettuce-nioEventLoop-4-9] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:20:51.251 INFO  [lettuce-eventExecutorLoop-1-4] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:20:51.259 WARN  [lettuce-nioEventLoop-4-10] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:21:21.346 INFO  [lettuce-eventExecutorLoop-1-6] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:21:21.351 WARN  [lettuce-nioEventLoop-4-11] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:21:51.442 INFO  [lettuce-eventExecutorLoop-1-8] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:21:51.447 WARN  [lettuce-nioEventLoop-4-12] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:25:54.686 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-15 10:25:54.879 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 18120 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-15 10:25:54.893 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 10:25:58.059 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 10:25:58.068 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-15 10:25:58.200 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2026-02-15 10:25:59.581 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-15 10:25:59.605 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:25:59.609 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-15 10:25:59.610 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-15 10:25:59.732 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-15 10:25:59.736 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4689 ms
+2026-02-15 10:26:02.323 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-15 10:26:02.455 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:26:02.559 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-15 10:26:02.586 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 8.657 seconds (process running for 10.768)
+2026-02-15 10:26:23.036 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 10:26:23.037 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-15 10:26:23.041 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 2 ms
+2026-02-15 10:28:51.978 INFO  [http-nio-8081-exec-2] AuthController - OTP sent successfull
+2026-02-15 10:28:59.175 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-15 10:28:59.189 WARN  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:29:08.264 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:29:08.278 INFO  [lettuce-nioEventLoop-4-3] ReconnectionHandler - Reconnected to localhost/<unresolved>:6379
+2026-02-15 10:29:38.766 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/127.0.0.1:6379
+2026-02-15 10:29:38.780 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection closed prematurely
+io.lettuce.core.RedisConnectionException: Connection closed prematurely
+	at io.lettuce.core.protocol.RedisHandshakeHandler.channelInactive(RedisHandshakeHandler.java:91) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.lettuce.core.ChannelGroupListener.channelInactive(ChannelGroupListener.java:69) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566) ~[netty-transport-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.107.Final.jar:4.1.107.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-02-15 10:29:47.859 INFO  [lettuce-eventExecutorLoop-1-3] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:29:47.862 WARN  [lettuce-nioEventLoop-4-4] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:29:56.070 INFO  [lettuce-eventExecutorLoop-1-4] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:29:56.073 WARN  [lettuce-nioEventLoop-4-5] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:30:12.572 INFO  [lettuce-eventExecutorLoop-1-5] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:30:12.576 WARN  [lettuce-nioEventLoop-4-6] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:30:31.693 WARN  [http-nio-8081-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Pizza': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-02-15 10:30:42.666 INFO  [lettuce-eventExecutorLoop-1-5] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:30:42.671 WARN  [lettuce-nioEventLoop-4-7] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:31:12.760 INFO  [lettuce-eventExecutorLoop-1-10] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:31:12.764 WARN  [lettuce-nioEventLoop-4-8] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:31:42.870 INFO  [lettuce-eventExecutorLoop-1-12] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:31:42.878 WARN  [lettuce-nioEventLoop-4-9] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:32:12.960 INFO  [lettuce-eventExecutorLoop-1-2] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:32:12.968 WARN  [lettuce-nioEventLoop-4-10] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:32:43.113 INFO  [lettuce-eventExecutorLoop-1-4] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:32:43.137 WARN  [lettuce-nioEventLoop-4-11] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:33:13.164 INFO  [lettuce-eventExecutorLoop-1-6] ConnectionWatchdog - Reconnecting, last destination was localhost/<unresolved>:6379
+2026-02-15 10:33:13.168 WARN  [lettuce-nioEventLoop-4-12] ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: getsockopt: localhost/127.0.0.1:6379
+2026-02-15 10:35:44.155 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-15 10:35:44.236 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 12244 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-02-15 10:35:44.246 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 10:35:46.181 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 10:35:46.186 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-15 10:35:46.247 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-02-15 10:35:47.244 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-15 10:35:47.265 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:35:47.270 INFO  [main] StandardService - Starting service [Tomcat]
+2026-02-15 10:35:47.270 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-15 10:35:47.373 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-02-15 10:35:47.376 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3045 ms
+2026-02-15 10:35:49.703 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-02-15 10:35:49.858 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-15 10:35:49.958 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-15 10:35:49.983 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 6.456 seconds (process running for 8.201)
+2026-02-15 10:36:05.028 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 10:36:05.029 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-15 10:36:05.031 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 2 ms
+2026-02-15 10:36:05.298 INFO  [http-nio-8081-exec-1] OrderController - Placing order for user=test@gmail.com

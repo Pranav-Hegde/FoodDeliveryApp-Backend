@@ -1,0 +1,53 @@
+2026-03-07 11:14:59.469 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-07 11:14:59.684 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 3356 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-07 11:14:59.700 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-07 11:15:02.516 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-07 11:15:02.525 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-07 11:15:02.609 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2026-03-07 11:15:03.851 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-07 11:15:03.884 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-07 11:15:03.891 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-07 11:15:03.892 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-07 11:15:04.049 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-07 11:15:04.055 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4200 ms
+2026-03-07 11:15:07.133 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-07 11:15:07.299 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-07 11:15:07.384 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-07 11:15:07.421 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 8.819 seconds (process running for 11.606)
+2026-03-07 11:15:12.210 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07 11:15:12.211 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-07 11:15:12.214 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 3 ms
+2026-03-07 11:16:24.166 INFO  [http-nio-8081-exec-2] AuthController - OTP sent successfull
+2026-03-07 11:17:40.692 INFO  [http-nio-8081-exec-3] AuthController - OTP sent successfull
+2026-03-07 11:18:50.066 INFO  [http-nio-8081-exec-6] OrderController - Placing order for user=test@gmail.com
+2026-03-07 11:18:50.072 INFO  [http-nio-8081-exec-6] OrderController - ORDER_CREATED | orderId=e132141b-6a66-427a-acc7-9c5d068889b6 | userEmail=test@gmail.com | items=[\] | totalAmount=299.0 | status=CREATED | createdAt=2026-03-07T11:18:50.071290
+2026-03-07 11:20:49.860 INFO  [http-nio-8081-exec-7] OrderController - Placing order for user=test@gmail.com
+2026-03-07 11:20:49.860 INFO  [http-nio-8081-exec-7] OrderController - ORDER_CREATED | orderId=0b59dcaa-02b7-4787-89d4-ac1e3453ee50 | userEmail=test@gmail.com | items=[\] | totalAmount=299.0 | status=CREATED | createdAt=2026-03-07T11:20:49.860757400
+2026-03-07 11:20:59.543 INFO  [http-nio-8081-exec-10] OrderController - Placing order for user=test@gmail.com
+2026-03-07 11:20:59.544 INFO  [http-nio-8081-exec-10] OrderController - ORDER_CREATED | orderId=2a6c1828-6aa1-4821-bb1e-ff9fc2316f74 | userEmail=test@gmail.com | items=[\] | totalAmount=299.0 | status=CREATED | createdAt=2026-03-07T11:20:59.544996500
+2026-03-07 11:22:33.837 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-07 11:22:34.007 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 6988 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-07 11:22:34.020 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-07 11:22:37.358 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-07 11:22:37.367 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-07 11:22:37.545 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 0 Redis repository interfaces.
+2026-03-07 11:22:39.617 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-07 11:22:39.646 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-07 11:22:39.655 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-07 11:22:39.655 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-07 11:22:39.785 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-07 11:22:39.790 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5592 ms
+2026-03-07 11:22:42.781 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-07 11:22:42.914 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-07 11:22:42.986 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-07 11:22:43.037 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 10.065 seconds (process running for 12.759)
+2026-03-07 11:22:43.180 INFO  [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07 11:22:43.181 INFO  [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-07 11:22:43.185 INFO  [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 3 ms
+2026-03-07 11:22:43.555 WARN  [http-nio-8081-exec-2] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-03-07 11:23:26.230 INFO  [http-nio-8081-exec-1] AuthController - OTP sent successfull
+2026-03-07 11:24:23.231 WARN  [http-nio-8081-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-03-07 11:24:25.752 WARN  [http-nio-8081-exec-6] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-03-07 11:25:11.552 WARN  [http-nio-8081-exec-7] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Pizza': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-03-07 11:31:20.193 WARN  [http-nio-8081-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Pizza': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2026-03-07 11:33:46.613 WARN  [http-nio-8081-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Pizza': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]

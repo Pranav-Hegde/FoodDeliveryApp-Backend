@@ -1,0 +1,205 @@
+2026-03-06 21:59:05.875 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-06 21:59:06.016 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 20832 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-06 21:59:06.029 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-06 21:59:09.277 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 21:59:09.287 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 21:59:09.364 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2026-03-06 21:59:10.558 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-06 21:59:10.587 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-06 21:59:10.592 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-06 21:59:10.593 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-06 21:59:10.707 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-06 21:59:10.712 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4476 ms
+2026-03-06 21:59:13.200 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-06 21:59:13.315 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-06 21:59:13.379 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-06 21:59:13.412 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 8.285 seconds (process running for 11.168)
+2026-03-06 22:43:30.470 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-06 22:43:30.612 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 20492 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-06 22:43:30.628 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-06 22:43:34.074 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 22:43:34.082 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 22:43:34.172 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+2026-03-06 22:43:35.514 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-06 22:43:35.558 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:43:35.563 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-06 22:43:35.564 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-06 22:43:35.720 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-06 22:43:35.726 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4925 ms
+2026-03-06 22:43:41.415 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-06 22:43:41.837 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:43:42.159 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-06 22:43:42.264 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 12.852 seconds (process running for 15.57)
+2026-03-06 22:43:58.686 INFO  [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 22:43:58.689 INFO  [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-06 22:43:58.692 INFO  [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 2 ms
+2026-03-06 22:46:23.215 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-06 22:46:23.380 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 18640 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-06 22:46:23.392 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-06 22:46:27.693 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 22:46:27.704 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 22:46:27.858 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 0 Redis repository interfaces.
+2026-03-06 22:46:29.445 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-06 22:46:29.479 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:46:29.483 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-06 22:46:29.485 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-06 22:46:29.657 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-06 22:46:29.662 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6108 ms
+2026-03-06 22:46:32.582 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-06 22:46:32.735 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:46:32.823 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-06 22:46:32.866 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 10.625 seconds (process running for 13.306)
+2026-03-06 22:46:33.089 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 22:46:33.090 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-06 22:46:33.095 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 4 ms
+2026-03-06 22:50:07.183 INFO  [http-nio-8081-exec-3] AuthController - OTP sent successfull
+2026-03-06 22:54:05.169 INFO  [http-nio-8081-exec-10] OrderController - Placing order for user=test@gmail.com
+2026-03-06 22:54:05.203 INFO  [http-nio-8081-exec-10] OrderController - ORDER_CREATED | orderId=74f6a0cf-ffe6-443a-9ebd-90748116f2c8 | userEmail=test@gmail.com | items=[Pizza, Coke] | totalAmount=299.0 | status=CREATED | createdAt=2026-03-06T22:54:05.201853800
+2026-03-06 22:59:15.228 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-06 22:59:15.468 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 3108 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-06 22:59:15.484 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-06 22:59:18.933 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 22:59:18.944 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 22:59:19.031 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2026-03-06 22:59:20.888 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-06 22:59:20.913 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:59:20.918 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-06 22:59:20.920 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-06 22:59:21.065 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-06 22:59:21.069 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5380 ms
+2026-03-06 22:59:24.303 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-06 22:59:24.429 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-06 22:59:24.593 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-06 22:59:24.629 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 10.439 seconds (process running for 13.843)
+2026-03-06 22:59:24.809 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 22:59:24.810 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-06 22:59:24.812 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 1 ms
+2026-03-06 23:02:07.266 INFO  [http-nio-8081-exec-7] AdminController - Admin accepting order 74f6a0cf-ffe6-443a-9ebd-90748116f2c8
+2026-03-06 23:02:07.273 ERROR [http-nio-8081-exec-7] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Order not found] with root cause
+java.lang.RuntimeException: Order not found
+	at FoodDelivery.auth.Order.OrderService.updateStatus(OrderService.java:48) ~[classes/:?]
+	at FoodDelivery.auth.admin.AdminController.acceptOrder(AdminController.java:35) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-03-06 23:02:19.253 INFO  [background-preinit] Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-06 23:02:19.480 INFO  [main] AuthServiceApplication - Starting AuthServiceApplication using Java 21.0.10 with PID 10164 (D:\FoodDeliveryApp\target\classes started by admin in D:\FoodDeliveryApp)
+2026-03-06 23:02:19.495 INFO  [main] AuthServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-06 23:02:23.884 INFO  [main] RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-06 23:02:23.894 INFO  [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-06 23:02:24.026 INFO  [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 0 Redis repository interfaces.
+2026-03-06 23:02:25.904 INFO  [main] TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-03-06 23:02:26.010 INFO  [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-03-06 23:02:26.018 INFO  [main] StandardService - Starting service [Tomcat]
+2026-03-06 23:02:26.019 INFO  [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-06 23:02:26.204 INFO  [main] [/] - Initializing Spring embedded WebApplicationContext
+2026-03-06 23:02:26.210 INFO  [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6490 ms
+2026-03-06 23:02:29.407 INFO  [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-03-06 23:02:29.597 INFO  [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-03-06 23:02:29.678 INFO  [main] TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-03-06 23:02:29.744 INFO  [main] AuthServiceApplication - Started AuthServiceApplication in 11.933 seconds (process running for 14.707)
+2026-03-06 23:02:30.083 INFO  [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06 23:02:30.085 INFO  [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-06 23:02:30.091 INFO  [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 4 ms
+2026-03-06 23:02:30.224 INFO  [http-nio-8081-exec-1] AdminController - Admin accepting order 74f6a0cf-ffe6-443a-9ebd-90748116f2c8
+2026-03-06 23:02:30.234 ERROR [http-nio-8081-exec-1] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Order not found] with root cause
+java.lang.RuntimeException: Order not found
+	at FoodDelivery.auth.Order.OrderService.updateStatus(OrderService.java:48) ~[classes/:?]
+	at FoodDelivery.auth.admin.AdminController.acceptOrder(AdminController.java:35) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
