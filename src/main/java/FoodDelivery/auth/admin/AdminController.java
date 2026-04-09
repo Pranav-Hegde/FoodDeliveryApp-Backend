@@ -27,7 +27,7 @@ import FoodDelivery.auth.config.OrderProducer;
 public class AdminController {
 	private static final Logger logger = LogManager.getLogger(AdminController.class);
 	private final OrderService orderservice;
-	
+
 	@Autowired
 	private OrderProducer orderProducer;
 
@@ -37,14 +37,14 @@ public class AdminController {
 
 	@GetMapping
 	public List<Order> getAllOrders() {
-		logger.info("Admin fetching all orders");
+		logger.info("Fetching all orders");
 		return orderservice.getAllOrders();
 	}
 
 	@PatchMapping("/{orderId}/accept")
 	public Order acceptOrder(@PathVariable String orderId, @RequestParam int totalTimeMinutes) {
 
-		Order order = orderservice.updateStatus(orderId, "ACCEPTED");
+		Order order = orderservice.acceptOrder(orderId);
 
 		orderProducer.sendOrderAccepted(orderId, totalTimeMinutes);
 
@@ -54,32 +54,13 @@ public class AdminController {
 	@PatchMapping("/{orderId}/prepare")
 	public Order prepareOrder(@PathVariable String orderId) {
 		logger.info("Order {} is being prepared", orderId);
-		return orderservice.updateStatus(orderId, "Preparing");
+		return orderservice.prepareOrder(orderId);
 	}
 
 	@PatchMapping("/{orderId}/dispatch")
 	public Order dispatchOrder(@PathVariable String orderId) {
 		logger.info("Order {} dispatched", orderId);
-		return orderservice.updateStatus(orderId, "Delivered");
-	}
-
-	@Autowired
-	private AdminService adminService;
-
-	@PostMapping("/restaurant")
-	public Restaurant createRestaurant(@RequestBody Restaurant restaurant) {
-		return adminService.createRestaurant(restaurant);
-
-	}
-
-	@GetMapping("/restaurants")
-	public List<Restaurant> getRestaurants() {
-		return adminService.getAllRestaurant();
-	}
-
-	@DeleteMapping("/restaurant/{id}")
-	public String deleteRestaurant(@PathVariable Long id) {
-		return adminService.deleteRestaurant(id);
+		return orderservice.dispatchOrder(orderId);
 	}
 
 }

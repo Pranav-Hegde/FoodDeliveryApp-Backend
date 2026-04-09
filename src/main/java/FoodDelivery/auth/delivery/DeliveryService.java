@@ -17,8 +17,7 @@ public class DeliveryService {
 
 	@Autowired
 	private DeliveryAgentRepository deliveryAgent;
-	
-	@Autowired
+
 	private OrderService orderService;
 
 	@Autowired

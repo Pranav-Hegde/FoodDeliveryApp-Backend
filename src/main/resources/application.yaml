@@ -10,14 +10,30 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create   # 🔥 change from update → create (fix FK issue)
     show-sql: true
-    database-platform: org.hibernate.dialect.MySQL8Dialect
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
 
   data:
     redis:
       host: localhost
       port: 6379
+      timeout: 60000
 
   kafka:
     bootstrap-servers: localhost:9092
+    consumer:
+      group-id: food-app-group
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: YOUR_EMAIL@gmail.com
+    password: YOUR_APP_PASSWORD  # ⚠️ Use App Password for Gmail
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

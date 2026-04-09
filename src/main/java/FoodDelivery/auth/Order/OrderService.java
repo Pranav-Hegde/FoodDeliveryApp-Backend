@@ -1,72 +1,58 @@
 package FoodDelivery.auth.Order;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import FoodDelivery.auth.admin.AdminController;
-
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
+import FoodDelivery.auth.delivery.DeliveryService;
 
 @Service
 public class OrderService {
-	private static final Logger logger = LogManager.getLogger(OrderService.class);
-    private final Map<String, Order> orderStore = new ConcurrentHashMap<>();
-    @Autowired
-    private ExecutorService executor;
-    
-    public Order placeOrder(String email, List<String> items, double amount) {
-    	Order order = new Order(email, items, amount);
-    	
-      executor.submit(() ->{
-       try {
-        orderStore.put(order.getOrderId(), order);
-        logger.info("Order Placed for "+email);
-        Thread.sleep(5000);
-        }catch(Exception e){
-        	logger.error(e.getMessage());
-        }
-    });
-	  return order;
-    }
+	@Autowired
+	private OrderRepository orderRepository;
 
-    public Order getOrderById(String orderId) {
-        return orderStore.get(orderId);
-    }
+	@Autowired
+	private DeliveryService deliveryService;
 
-    public List<Order> getOrdersByUser(String email) {
+	public Order createOrder(Order order) {
+		return orderRepository.save(order);
+	}
 
-        List<Order> orders = new ArrayList<>();
+	public List<Order> getAllOrders() {
+		return orderRepository.findAll();
+	}
 
-        for (Order order : orderStore.values()) {
-            if (order.getUserEmail().equals(email)) {
-                orders.add(order);
-            }
-        }
+	public Order getOrderById(String id) {
+		return orderRepository.findById(id).orElseThrow(() -> new RuntimeException("Order not found"));
+	}
 
-        return orders;
-    }
+	public Order acceptOrder(String orderId) {
+		Order order = getOrderById(orderId);
 
-    public List<Order> getAllOrders() {
-        return new ArrayList<>(orderStore.values());
-    }
+		order.setStatus(OrderStatus.ACCEPTED);
 
-    public Order updateStatus(String orderId, String status) {
+		return orderRepository.save(order);
+	}
 
-        Order order = orderStore.get(orderId);
+	public Order prepareOrder(String orderId) {
+		Order order = getOrderById(orderId);
 
-        if (order == null) {
-            throw new RuntimeException("Order not found");
-        }
+		order.setStatus(OrderStatus.PREPARED);
 
-        OrderStatus orderStatus =
-                OrderStatus.valueOf(status.toUpperCase());
+		orderRepository.save(order);
 
-        order.setStatus(orderStatus);
+		// 🔥 trigger delivery
+		deliveryService.startDelivery(orderId);
 
-        return order;
-    }
+		return order;
+	}
+
+	public Order dispatchOrder(String orderId) {
+		Order order = getOrderById(orderId);
+
+		order.setStatus(OrderStatus.DISPATCHED);
+
+		return orderRepository.save(order);
+	}
 }

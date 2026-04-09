@@ -1,0 +1,17 @@
+# Maven
+target/
+*.class
+
+# IDEs
+.project
+.classpath
+.settings/
+.vscode/
+.metadata/
+*.log
+
+# Node (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.DS_Store
