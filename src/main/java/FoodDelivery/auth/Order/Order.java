@@ -1,111 +1,235 @@
 package FoodDelivery.auth.Order;
 
-import java.time.LocalDateTime;
-import java.util.List;
-
 import jakarta.persistence.*;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 @Entity
-@Table(name = "orders")
+@Table(name = "food_orders") // Changed to avoid foreign key drop errors with old tables
 public class Order {
+	@Id
+	private String id; // CHANGED: Now a String ID
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long orderId;
+	private String userEmail;
+	private String userName;
+	private String status;
+	private double totalAmount;
 
-    private String userEmail;
+	private String restaurantName;
+	private String restaurantId;
+	private String address;
+	private String paymentId;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "order_items", joinColumns = @JoinColumn(name = "order_id"))
-    @Column(name = "item")
-    private List<String> items;
+	private long prepTime;
+	private long acceptedTime;
+	private long preparedTime;
 
-    private Double totalAmount;
+	private Long assignedAgentId;
+	private String riderName;
+	private String riderPhone;
+	private String riderPlate;
+	private String riderImage;
 
-    @Enumerated(EnumType.STRING)
-    private OrderStatus status = OrderStatus.CREATED;
+	private long pickedUpTime;
+	private int estimatedDeliveryMins;
+	private long deliveredTime;
 
-    private LocalDateTime createdAt;
+	@ElementCollection(fetch = FetchType.EAGER)
+	@CollectionTable(name = "food_orders_items", joinColumns = @JoinColumn(name = "order_id"))
+	@Column(name = "item")
+	private List<String> items = new ArrayList<>();
 
-    private long acceptedTime;
-    private long preparedTime;
+	private LocalDateTime createdAt = LocalDateTime.now();
+	private int totalMinutes;
 
-    // Default Constructor
-    public Order() {}
+	// Constructor to auto-generate unique String IDs if not provided
+	public Order() {
+		this.id = "ORD-" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
+	}
 
-    // Parameterized Constructor
-    public Order(String userEmail, List<String> items, Double totalAmount) {
-        this.userEmail = userEmail;
-        this.items = items;
-        this.totalAmount = totalAmount;
-    }
+	// Getters and Setters
+	public String getId() {
+		return id;
+	}
 
-    @PrePersist
-    public void prePersist() {
-        this.createdAt = LocalDateTime.now();
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    // ✅ Setters
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
-    }
+	public String getStatus() {
+		return status;
+	}
 
-    public void setItems(List<String> items) {
-        this.items = items;
-    }
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getUserEmail() {
+		return userEmail;
+	}
 
-    public void setTotalAmount(Double totalAmount) {
-        this.totalAmount = totalAmount;
-    }
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
 
-    public void setStatus(OrderStatus status) {
-        this.status = status;
+	public String getUserName() {
+		return userName;
+	}
 
-        if (status == OrderStatus.ACCEPTED) {
-            this.acceptedTime = System.currentTimeMillis();
-        }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
-        if (status == OrderStatus.PREPARED) {
-            this.preparedTime = System.currentTimeMillis();
-        }
-    }
+	public String getRestaurantName() {
+		return restaurantName;
+	}
 
-    // ✅ Getters
-    public Long getOrderId() {
-        return orderId;
-    }
+	public void setRestaurantName(String restaurantName) {
+		this.restaurantName = restaurantName;
+	}
 
-    public String getUserEmail() {
-        return userEmail;
-    }
+	public String getRestaurantId() {
+		return restaurantId;
+	}
 
-    public List<String> getItems() {
-        return items;
-    }
+	public void setRestaurantId(String restaurantId) {
+		this.restaurantId = restaurantId;
+	}
 
-    public Double getTotalAmount() {
-        return totalAmount;
-    }
+	public String getAddress() {
+		return address;
+	}
 
-    public OrderStatus getStatus() {
-        return status;
-    }
+	public void setAddress(String address) {
+		this.address = address;
+	}
 
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
+	public String getPaymentId() {
+		return paymentId;
+	}
 
-    public long getAcceptedTime() {
-        return acceptedTime;
-    }
+	public void setPaymentId(String paymentId) {
+		this.paymentId = paymentId;
+	}
 
-    public long getPreparedTime() {
-        return preparedTime;
-    }
+	public double getTotalAmount() {
+		return totalAmount;
+	}
 
-    public int getTotalMinutes() {
-        if (preparedTime <= 0 || acceptedTime <= 0)
-            return 0;
-        return (int) ((preparedTime - acceptedTime) / (1000 * 60));
-    }
+	public void setTotalAmount(double totalAmount) {
+		this.totalAmount = totalAmount;
+	}
+
+	public Long getAssignedAgentId() {
+		return assignedAgentId;
+	}
+
+	public void setAssignedAgentId(Long assignedAgentId) {
+		this.assignedAgentId = assignedAgentId;
+	}
+
+	public String getRiderName() {
+		return riderName;
+	}
+
+	public void setRiderName(String riderName) {
+		this.riderName = riderName;
+	}
+
+	public String getRiderPhone() {
+		return riderPhone;
+	}
+
+	public void setRiderPhone(String riderPhone) {
+		this.riderPhone = riderPhone;
+	}
+
+	public String getRiderPlate() {
+		return riderPlate;
+	}
+
+	public void setRiderPlate(String riderPlate) {
+		this.riderPlate = riderPlate;
+	}
+
+	public String getRiderImage() {
+		return riderImage;
+	}
+
+	public void setRiderImage(String riderImage) {
+		this.riderImage = riderImage;
+	}
+
+	public List<String> getItems() {
+		return items;
+	}
+
+	public void setItems(List<String> items) {
+		this.items = items;
+	}
+
+	public LocalDateTime getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(LocalDateTime createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public long getPrepTime() {
+		return prepTime;
+	}
+
+	public void setPrepTime(long prepTime) {
+		this.prepTime = prepTime;
+	}
+
+	public long getAcceptedTime() {
+		return acceptedTime;
+	}
+
+	public void setAcceptedTime(long acceptedTime) {
+		this.acceptedTime = acceptedTime;
+	}
+
+	public long getPreparedTime() {
+		return preparedTime;
+	}
+
+	public void setPreparedTime(long preparedTime) {
+		this.preparedTime = preparedTime;
+	}
+
+	public int getTotalMinutes() {
+		return totalMinutes;
+	}
+
+	public void setTotalMinutes(int totalMinutes) {
+		this.totalMinutes = totalMinutes;
+	}
+
+	public long getPickedUpTime() {
+		return pickedUpTime;
+	}
+
+	public void setPickedUpTime(long pickedUpTime) {
+		this.pickedUpTime = pickedUpTime;
+	}
+
+	public int getEstimatedDeliveryMins() {
+		return estimatedDeliveryMins;
+	}
+
+	public void setEstimatedDeliveryMins(int estimatedDeliveryMins) {
+		this.estimatedDeliveryMins = estimatedDeliveryMins;
+	}
+
+	public long getDeliveredTime() {
+		return deliveredTime;
+	}
+
+	public void setDeliveredTime(long deliveredTime) {
+		this.deliveredTime = deliveredTime;
+	}
 }

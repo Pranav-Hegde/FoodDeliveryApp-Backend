@@ -45,7 +45,7 @@ public class AuthController {
         );
         
         String token = jwtService.generateToken(user.getEmail(), user.getRole());
-        return ResponseEntity.ok(new AuthResponse(token, user.getRole()));
+        return ResponseEntity.ok(new AuthResponse(token, user.getRole(), user.getName(), user.getEmail()));
     }
 
     @PostMapping("/login")
@@ -60,7 +60,7 @@ public class AuthController {
         
         User user = userOpt.get();
         String token = jwtService.generateToken(user.getEmail(), user.getRole());
-        return ResponseEntity.ok(new AuthResponse(token, user.getRole()));
+        return ResponseEntity.ok(new AuthResponse(token, user.getRole(), user.getName(), user.getEmail()));
     }
 }
 
@@ -112,7 +112,16 @@ class LoginRequest {
 class AuthResponse {
     private String token;
     private String role;
-    public AuthResponse(String token, String role) { this.token = token; this.role = role; }
+    private String name;
+    private String email;
+    public AuthResponse(String token, String role, String name, String email) { 
+        this.token = token; 
+        this.role = role; 
+        this.name = name;
+        this.email = email;
+    }
     public String getToken() { return token; }
     public String getRole() { return role; }
+    public String getName() { return name; }
+    public String getEmail() { return email; }
 }

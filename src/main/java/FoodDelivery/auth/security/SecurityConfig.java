@@ -1,20 +1,11 @@
 package FoodDelivery.auth.security;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
 
+// JWT authentication is handled directly in each controller via extractEmailFromRequest().
+// No Servlet filter is needed — previously the filter was intercepting requests
+// and returning 401 before controllers could process them.
 @Configuration
 public class SecurityConfig {
-
-    @Bean
-    public FilterRegistrationBean<JwtAuthFilter> jwtFilter() {
-        FilterRegistrationBean<JwtAuthFilter> registrationBean =
-                new FilterRegistrationBean<>();
-
-        registrationBean.setFilter(new JwtAuthFilter());
-        registrationBean.addUrlPatterns("/api/*"); // protect APIs
-
-        return registrationBean;
-    }
+    // No filter beans registered — controllers parse JWT tokens themselves.
 }

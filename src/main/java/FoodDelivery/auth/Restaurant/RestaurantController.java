@@ -7,27 +7,39 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/restaurants")
-@CrossOrigin(origins = "http://localhost:5173") 
+@CrossOrigin(origins = "http://localhost:5173")
 public class RestaurantController {
 
-    @Autowired
-    private AdminService adminService;
+	@Autowired
+	private AdminService adminService;
 
-    // ✅ Create Restaurant
-    @PostMapping
-    public Restaurant createRestaurant(@RequestBody Restaurant restaurant) {
-        return adminService.createRestaurant(restaurant);
-    }
+	// ✅ Create Restaurant
+	@PostMapping
+	public Restaurant createRestaurant(@RequestBody Restaurant restaurant) {
+		return adminService.createRestaurant(restaurant);
+	}
 
-    // ✅ Get All Restaurants
-    @GetMapping
-    public List<Restaurant> getAllRestaurants() {
-        return adminService.getAllRestaurant();
-    }
+	// ✅ Get All Restaurants
+	@GetMapping
+	public List<Restaurant> getAllRestaurants() {
+		return adminService.getAllRestaurant();
+	}
 
-    // ✅ Delete Restaurant
-    @DeleteMapping("/{id}")
-    public String deleteRestaurant(@PathVariable Long id) {
-        return adminService.deleteRestaurant(id);
-    }
+	// ✅ Get Restaurant By ID
+	@GetMapping("/{id}")
+	public Restaurant getRestaurantById(@PathVariable Long id) {
+		return adminService.getRestaurantById(id);
+	}
+
+	// ✅ Update Restaurant
+	@PutMapping("/{id}")
+	public Restaurant updateRestaurant(@PathVariable Long id, @RequestBody Restaurant restaurant) {
+		return adminService.updateRestaurant(id, restaurant);
+	}
+
+	// ✅ Delete Restaurant
+	@DeleteMapping("/{id}")
+	public String deleteRestaurant(@PathVariable Long id) {
+		return adminService.deleteRestaurant(id);
+	}
 }

@@ -1,78 +1,127 @@
 package FoodDelivery.auth.delivery;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class DeliveryAgent {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 
-    private String name;
-    private String phone;
-    private String vehicleNumber;
+	private String email;
 
-    private boolean available = true;
+	private String name;
+	private String phone;
 
-    private String currentOrderId;   // which order driver is delivering
+	private String vehicleType; // Motorcycle, Car, etc.
+	private String vehiclePlate; // KA 01 EK 9982
 
-    private String status;           // AVAILABLE, BUSY, DELIVERING
+	private String status; // AVAILABLE, DELIVERING, OFFLINE
+	private double rating = 5.0;
 
-    public DeliveryAgent() {}
+	private String profileImage; // URL of profile image
 
-    public Long getId() {
-        return id;
-    }
+	private String currentOrderId; // Track assigned order
 
-    public String getName() {
-        return name;
-    }
+	private boolean available; // true = free, false = busy
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	// ✅ Constructors
+	public DeliveryAgent() {
+	}
 
-    public String getPhone() {
-        return phone;
-    }
+	public DeliveryAgent(String name, String phone, String vehicleType, String vehiclePlate) {
+		this.name = name;
+		this.phone = phone;
+		this.vehicleType = vehicleType;
+		this.vehiclePlate = vehiclePlate;
+		this.status = "AVAILABLE";
+		this.available = true;
+	}
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+	// Getters & Setters
 
-    public String getVehicleNumber() {
-        return vehicleNumber;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public void setVehicleNumber(String vehicleNumber) {
-        this.vehicleNumber = vehicleNumber;
-    }
+	public String getEmail() {
+		return email;
+	}
 
-    public boolean isAvailable() {
-        return available;
-    }
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public String getCurrentOrderId() {
-        return currentOrderId;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setCurrentOrderId(String currentOrderId) {
-        this.currentOrderId = currentOrderId;
-    }
+	public String getPhone() {
+		return phone;
+	}
 
-    public String getStatus() {
-        return status;
-    }
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+	public String getVehicleType() {
+		return vehicleType;
+	}
+
+	public void setVehicleType(String vehicleType) {
+		this.vehicleType = vehicleType;
+	}
+
+	public String getVehiclePlate() {
+		return vehiclePlate;
+	}
+
+	public void setVehiclePlate(String vehiclePlate) {
+		this.vehiclePlate = vehiclePlate;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public double getRating() {
+		return rating;
+	}
+
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
+
+	public String getProfileImage() {
+		return profileImage;
+	}
+
+	public void setProfileImage(String profileImage) {
+		this.profileImage = profileImage;
+	}
+
+	public String getCurrentOrderId() {
+		return currentOrderId;
+	}
+
+	public void setCurrentOrderId(String string) {
+		this.currentOrderId = string;
+	}
+
+	public boolean isAvailable() {
+		return available;
+	}
+
+	public void setAvailable(boolean available) {
+		this.available = available;
+	}
 }

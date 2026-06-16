@@ -8,4 +8,5 @@ public interface DeliveryAgentRepository
         extends JpaRepository<DeliveryAgent, Long> {
 
     Optional<DeliveryAgent> findFirstByAvailableTrue();
+    Optional<DeliveryAgent> findByEmail(String email);
 }
