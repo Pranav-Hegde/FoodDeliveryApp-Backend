@@ -15,7 +15,11 @@ public class UserService {
     @jakarta.annotation.PostConstruct
     public void initAdmin() {
         if (userRepository.findByEmail("admin").isEmpty()) {
-            User admin = new User("admin", "ROLE_SUPER_ADMIN", "Super Admin", "9999999999", "pranav@123");
+            String phone = "9999990000";
+            while (userRepository.findByPhone(phone).isPresent()) {
+                phone = String.valueOf(Long.parseLong(phone) + 1);
+            }
+            User admin = new User("admin", "ROLE_SUPER_ADMIN", "Super Admin", phone, "pranav@123");
             userRepository.save(admin);
         }
     }
