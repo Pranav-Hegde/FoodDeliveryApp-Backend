@@ -12,6 +12,14 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    @jakarta.annotation.PostConstruct
+    public void initAdmin() {
+        if (userRepository.findByEmail("admin").isEmpty()) {
+            User admin = new User("admin", "ROLE_SUPER_ADMIN", "Super Admin", "9999999999", "pranav@123");
+            userRepository.save(admin);
+        }
+    }
+
     public String getRoleByEmail(String email) {
         return userRepository.findByEmail(email)
                 .map(User::getRole)

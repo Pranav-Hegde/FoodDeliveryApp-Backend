@@ -50,11 +50,6 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest req) {
-        if ("admin".equals(req.getIdentifier()) && "pranav@123".equals(req.getPassword())) {
-            String token = jwtService.generateToken("admin", "ROLE_SUPER_ADMIN");
-            return ResponseEntity.ok(new AuthResponse(token, "ROLE_SUPER_ADMIN", "Super Admin", "admin"));
-        }
-
         Optional<User> userOpt = userService.findByEmail(req.getIdentifier()).isPresent() 
                                 ? userService.findByEmail(req.getIdentifier()) 
                                 : userService.findByPhone(req.getIdentifier());
