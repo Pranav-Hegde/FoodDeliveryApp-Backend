@@ -27,31 +27,35 @@ public class OrderController {
 	@Autowired
 	private OrderService orderService;
 
-	/**
-	 * Extracts the email (subject) from the Authorization: Bearer <token> header.
-	 * Returns null if the header is missing, malformed, or the token is invalid.
-	 */
-	private String extractEmailFromRequest(HttpServletRequest request) {
+	private Claims extractClaimsFromRequest(HttpServletRequest request) {
 		String authHeader = request.getHeader("Authorization");
 		if (authHeader == null || !authHeader.startsWith("Bearer ")) {
 			return null;
 		}
 		try {
 			String token = authHeader.substring(7);
-			Claims claims = Jwts.parserBuilder()
+			return Jwts.parserBuilder()
 					.setSigningKey(JWT_KEY)
 					.build()
 					.parseClaimsJws(token)
 					.getBody();
-			return claims.getSubject(); // subject = email set at login
 		} catch (Exception e) {
 			System.err.println("[OrderController] JWT parse failed: " + e.getMessage());
 			return null;
 		}
 	}
 
+	private String extractEmailFromRequest(HttpServletRequest request) {
+		Claims claims = extractClaimsFromRequest(request);
+		return claims != null ? claims.getSubject() : null;
+	}
+
 	@GetMapping
-	public ResponseEntity<List<Order>> getAllOrders() {
+	public ResponseEntity<?> getAllOrders(HttpServletRequest request) {
+		Claims claims = extractClaimsFromRequest(request);
+		if (claims == null || !"ROLE_SUPER_ADMIN".equals(claims.get("role"))) {
+			return ResponseEntity.status(401).body("Unauthorized: Super Admin access required");
+		}
 		return ResponseEntity.ok(orderService.getAllOrders());
 	}
 
